@@ -41,8 +41,8 @@ public class matematikaCangihBeraksi {
         mtk.modulus(12, 28, 14);
         mtk.modulus(23, 34);
         mtk.modulus(3.4, 4.9);
-       
 
+        System.out.println("\nHasil Operasi Gabungan : " + mtk.operasiGabungan(10, 5, 2) );
         
     }
 }
