@@ -29,5 +29,10 @@ void modulus (double a, double b, double c){
         double hasil = a % b  ;
         System.out.println("HASIL MODULUS: "+ hasil);
     };
+
+    // Method operasiGabungan
+    int operasiGabungan(int a , int b , int c){
+        return a + (b * c);
+    }
     
 }
